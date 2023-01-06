@@ -63,6 +63,7 @@ button{
     text-align: center;
     border-width: 30px;
     border-radius: 3px;
+    box-shadow: 3px 4px grey;
 }
 .tk-one{
     font-size: 40px;
@@ -75,6 +76,7 @@ button{
     text-align: center;
     border-width: 30px;
     border-radius: 3px;
+    box-shadow: 3px 4px grey;
 }
 .amount{
     text-align: center;
@@ -96,7 +98,7 @@ hr{
     border-radius: 5px;
     background-color: aquamarine;
     margin-left: 20px;
-    box-shadow: 4px 4px gray;
+    box-shadow: 4px 4px rgb(230, 22, 22);
 }
 .food{
     padding: 8px 17px;
