@@ -1,18 +1,21 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
-.header{
+
+.header {
     background-image: url("./img/donation0.jpg");
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
 }
+
 /* banner sect */
-.ok-title{
+.ok-title {
     padding: 170px 140px 3px 140px;
     text-align: center;
     font-size: 70px;
@@ -20,7 +23,8 @@
     color: rgb(20, 204, 236);
     text-shadow: 3px 4px olivedrab;
 }
-.ok-titles{
+
+.ok-titles {
     padding: 170px 140px 26px 140px;
     text-align: center;
     font-size: 50px;
@@ -28,18 +32,21 @@
     color: rgb(20, 204, 236);
     text-shadow: 3px 4px olivedrab;
 }
-.ok-description{
+
+.ok-description {
     text-align: center;
     font-size: 25px;
     color: rgb(255, 0, 162);
     text-shadow: 3px 4px olivedrab;
 }
-.btn{
+
+.btn {
     text-align: center;
     padding: 7px 15px;
-    margin-top: 27px;  
+    margin-top: 27px;
 }
-button{
+
+button {
     padding: 13px 20px;
     font-size: 25px;
     border-radius: 9px;
@@ -47,12 +54,14 @@ button{
     background-color: rgb(236, 20, 20);
     box-shadow: 4px 4px red;
 }
-.taka{
+
+.taka {
     text-align: center;
     margin-top: 90px;
     padding: 8px 25px;
 }
-.tk{
+
+.tk {
     font-size: 40px;
     font-weight: bolder;
     color: rgb(14, 14, 14);
@@ -65,7 +74,8 @@ button{
     border-radius: 3px;
     box-shadow: 3px 4px grey;
 }
-.tk-one{
+
+.tk-one {
     font-size: 40px;
     font-weight: bold;
     color: rgb(14, 14, 14);
@@ -78,56 +88,68 @@ button{
     border-radius: 3px;
     box-shadow: 3px 4px grey;
 }
-.amount{
+
+.amount {
     text-align: center;
     opacity: 0.5;
     margin-top: 70px;
     font-size: 25px;
     margin-bottom: 9px;
 }
-hr{
+
+hr {
     width: 40%;
     text-align: center;
     margin-left: 450px;
 }
-.shelter{
+
+.shelter {
     display: flex;
     margin: 60px 150px;
 }
-.people{
+
+.people {
     border-radius: 5px;
     background-color: aquamarine;
     margin-left: 20px;
     box-shadow: 4px 4px rgb(230, 22, 22);
 }
-.food{
+
+.food {
     padding: 8px 17px;
     font-size: 28px;
     font-weight: bold;
 }
-.desc{
+
+.desc {
     font-size: 18px;
     padding: 10px 13px 60px 13px;
     text-align: center;
 }
-.img-pop{
+
+.img-pop {
     padding: 40px 30px;
 }
-.script-info{
+
+.script-info {
     display: flex;
 }
-.total{
+
+.total {
     margin: 0 20px 0;
 }
-.help{
+
+.help {
     margin: 0 180px 0;
 }
-.off{
+
+.off {
     width: 500px;
     height: 470px;
     margin-top: 120px;
 }
-.ok-titless{
+
+.ok-titless {
     text-align: center;
     padding: 170px 100px 26px 120px;
     font-size: 50px;
@@ -135,39 +157,48 @@ hr{
     color: rgb(20, 204, 236);
     text-shadow: 3px 4px olivedrab;
 }
-.btn-2{
-    margin:30px 145px;
+
+.btn-2 {
+    margin: 30px 145px;
 }
-.ok-description1{
+
+.ok-description1 {
     text-align: left;
     margin-left: 150px;
     font-size: 22px;
 }
-.script-info1{
+
+.script-info1 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: first baseline;
 }
-.help1{
+
+.help1 {
     margin-left: 50px;
 }
-.updates{
+
+.updates {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.form{
-    margin-top: 20px;
+
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
     background-color: bisque;
-    width: 40%;
-    margin: 120px 140px 0 120px;
-    padding: 73px 90px 65px 190px;
+    width: 50%;
+    margin-top: 14%;
+    padding: 9% 13%;
     justify-content: center;
     align-items: center;
 }
-.txt{
-    width: 270px;
+
+.txt {
+    width: 270;
     height: 35px;
     padding: 4px 13px;
     font-size: 17px;
@@ -176,8 +207,9 @@ hr{
     border-radius: 3px;
     margin-right: 0;
 }
-.btn1{
-    padding: 12px 55px;
+
+.btn1 {
+    padding: 6px 50px;
     margin-left: -5px;
     color: aliceblue;
     background-color: crimson;
@@ -185,16 +217,84 @@ hr{
     font-weight: 500;
     border-radius: 2px;
 }
-.foot{
+
+.foot {
     text-align: center;
     background-color: black;
     color: white;
     margin-top: 150px;
     padding: 60px 200px;
 }
-.be{
+
+.be {
     font-size: 35px;
     font-weight: bold;
     font-family: 'Moon Dance', cursive;
     padding-bottom: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        width: 100%;
+    }
+
+    .ok-title,
+    .ok-titless {
+        padding: 4rem 1.5rem 3rem 0;
+        color: rgb(27 255 0 / 22%);
+    }
+
+    .ok-description {
+        color: whitesmoke;
+    }
+    .ok-description1{
+        text-align: start;
+        margin-left: 7px;
+    }
+    .taka {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .dag {
+        width: 50%;
+        text-align: center;
+        margin-left: 8.5rem;
+        margin-right: 0;
+    }
+
+    .shelter {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .people{
+        width: 400px;
+    }
+
+    .script-info, .script-info1{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .help1{
+        margin-left: 3px;
+    }
+    .form{
+        flex-direction: column;
+        padding: 5rem 15rem;
+    }
+    .foot{
+        width: 100%;
+    }
+    .be{
+        font-size: 23px;
+    }
+}
+
+.hide {
+    display: none;
 }
